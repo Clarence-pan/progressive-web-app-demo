@@ -3,6 +3,7 @@ console.log("Caches: %o", caches);
 
 var cacheName = 'progressive-web-app-demo-cache';
 var filesToCache = [
+    '../',
     '../index.html',
     '../favicon.ico',
     '../js/main.js',
