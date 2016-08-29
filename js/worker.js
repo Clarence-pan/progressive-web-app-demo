@@ -3,12 +3,12 @@ console.log("Caches: %o", caches);
 
 var cacheName = 'progressive-web-app-demo-cache';
 var filesToCache = [
-    '/',
-    '/index.html',
-    '/favicon.ico',
-    '/js/main.js',
-    '/js/worker.js',
-    '/css/main.css'
+    'index.html',
+    'favicon.ico',
+    'js/main.js',
+    'js/worker.js',
+    'js/rand-canvas.js',
+    'css/main.css'
 ];
 
 self.addEventListener('install', function(event) {
